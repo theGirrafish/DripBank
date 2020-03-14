@@ -1,0 +1,26 @@
+{
+  "name": "arthur-fulfilment",
+  "version": "1.0.0",
+  "description": "Backend for DripBank",
+  "main": "index.js",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "DripBank",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "googleapis": "^27.0.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
